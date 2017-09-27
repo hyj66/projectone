@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="animate/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src='js/jquery-1.9.0.min.js'></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="animate/swiper.animate1.0.2.min.js"></script>
+    <script src='js/index.js'></script>
+</head>
+<body>
+    <!-- 喇叭 -->
+    <div class="music">
+        <audio src="./videos/music.mp3" id="play" autoplay></audio>
+        <img src="images/music.png">
+    </div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <!-- 箭头 -->
+        <div class="exchange">
+            <img src="images/web-swipe-tip.png">
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide one">
+                <div class="intrduce">
+                    <p class="eng">intruce myself</p>
+                    <p>个人简历</p>
+                </div>
+                <div class="photo">
+                    <img src="images/photo1.jpg">
+                </div>
+                <div class="geyan">
+                    <p>求职前端工程师</p>
+                    <pre><p>我 心怀梦想 有态度</p></pre>
+                </div>
+                <div class="photo2"></div>
+                <div class="learnmore">了解更多</div>
+            </div>
+            <div class="swiper-slide two">
+                <img class="han" src="images/pc3.jpg">
+                <div class="base ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+                    <div class="myphoto">
+                        <img src="images/myphoto.jpg" height="480" width="360">
+                    </div>
+                    <p>基本信息</p> 
+                    <span>姓名：朱月娇<br>
+                        年龄：18<br>
+                         职业：孩子<br>
+                         大学：南京财经大学<br>
+                         专业：市场营销<br>
+                         政治面貌：党员<br>
+                         爱好：睡觉<br>
+                    </span>
+                </div>
+            </div>
+            <div class="swiper-slide three">
+                <div class="work ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s">专业技能</div>
+                <div class="app ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+                    <img src="images/skill1.png">
+                </div>
+                <div class="app1 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.1s">原生移动APP开发</div>
+                <div class="chat ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+                    <img src="images/skill2.png">
+                </div>
+                <div class="chat1 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.1s">微信公众平台开发</div>
+                <div class="h5 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+                    <img src="images/skill3.png">
+                </div>
+                <div class="h51 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.1s">HTML+CSS应用</div>
+                <div class="js ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+                    <img src="images/skill4.png">
+                </div>
+                <div class="js1 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.1s">Node. JS</div>
+                <div class="agl ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+                    <img src="images/skill5.png">
+                </div>
+                <div class="agl1 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.1s">angular.js</div>
+            </div>
+            <div class="swiper-slide four">
+                <div class="history ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s">个人成长经历</div>
+                <div class="school1 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s">2006.09-2009.06&nbsp;淮北中学</div>
+                <div class="school2 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.4s">2009.09-2012.06&nbsp;淮北中学</div>
+                <div class="school3 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.8s">2012.09-2016.06&nbsp;南财</div>
+                <div class="school4 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.2s">2016.06-2017.11&nbsp;珠峰科技</div>
+                <div class="school5 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s">2006.09-2009.06&nbsp;淮北中学</div>
+                <div class="school6 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.6s">2009.09-2012.06&nbsp;淮北中学</div>
+                <div class="school7 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.0s">2012.09-2016.06&nbsp;南财</div>
+                <div class="school8 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.4s">2016.06-2017.11&nbsp;珠峰科技</div>
+
+                <div class="longline ani" ></div>
+                <div class="circle1 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s"></div>
+                <div class="circle2 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.6s"></div>
+                <div class="circle3 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.0s"></div>
+                <div class="circle4 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.4s"></div>
+            </div>
+            <div class="swiper-slide five">
+                <div class="tel ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="0.1s">联系方式</div>
+                <div class="phone ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s">Phone:18252075999</div>
+                <div class="qq ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s">QQ:18252075999</div>
+                <div class="wechat ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">WeChat:18252075999</div>
+            </div>
+            <div class="swiper-slide six">
+                <div class="thanks ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s">谢谢观看</div>
+                <div class="thanks1 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s">THANK YOU</div>
+            </div>
+           
+        </div>
+        <!-- <div class="swiper-button-prev swiper-button-white"></div> -->
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+</body>
+</html>
